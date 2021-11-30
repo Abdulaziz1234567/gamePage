@@ -1,0 +1,61 @@
+.header__text h1 {
+    text-align: start;
+    font-size: 34px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #0D6EB7;
+}
+
+.header__text h1 span {
+    color: #0D6EB7;
+}
+
+.about__text {
+    margin-top: 150px;
+}
+
+.services__right {
+    margin-top: 65px;
+}
+
+.services__left p span,
+.services__right p span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.m_b {
+    color: #0D6EB7 !important;
+}
+
+.services__right h4 {
+    color: #276ED8;
+    margin-top: 34px;
+}
+
+.header__block-img {
+    margin-bottom: 200px !important;
+}
+
+@media (max-width:991px) {
+    .services__right {
+        margin-top: 632px;
+    }
+
+    .footer__about {
+        display: none;
+    }
+}
+
+@media (max-width:741px) {
+    .services__right {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width:453px) {
+    .services__box h1 {
+        font-size: 25px;
+    }
+}

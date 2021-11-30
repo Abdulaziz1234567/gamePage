@@ -1,0 +1,45 @@
+.services__right,
+.services__left {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 16px rgba(29, 51, 107, 0.15);
+    border-radius: 12px;
+}
+
+.services__left h3,
+.services__left p,
+.services__right h3,
+.services__right p {
+    margin-left: 24px;
+}
+
+.services .services__left img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.services .services__right img {
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.col-lg-6 {
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    margin-top: 250px;
+}
+
+@media (max-width:991px) {
+    .services {
+        margin-top: 554px;
+    }
+}
+@media (max-width:400px) {
+    .services {
+        margin-top: 200px;
+    }
+}
